@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "authenticatie", "authenticatie\authenticatie.csproj", "{840C9FE9-6125-477E-9FDB-CB915C30492C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{AA3D83F6-1FB7-483B-BC5A-F0A7E95C845A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{840C9FE9-6125-477E-9FDB-CB915C30492C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840C9FE9-6125-477E-9FDB-CB915C30492C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840C9FE9-6125-477E-9FDB-CB915C30492C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840C9FE9-6125-477E-9FDB-CB915C30492C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3D83F6-1FB7-483B-BC5A-F0A7E95C845A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3D83F6-1FB7-483B-BC5A-F0A7E95C845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3D83F6-1FB7-483B-BC5A-F0A7E95C845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3D83F6-1FB7-483B-BC5A-F0A7E95C845A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F79409-5EA2-47F5-B33B-BC1A15881D2D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<script>
+    class CustomPrivacy extends HTMLElement {
+        connectedCallback() {
+            this.innerHTML = `<div class="text-center">
+        <h1>Privacybeleid</h1>
+        <p>Dit privacybeleid beschrijft hoe chattenmetthomas ("wij", "ons" of "onze") uw persoonlijke gegevens verzamelt, gebruikt en deelt wanneer u onze website [Uw Website] bezoekt of gebruik maakt van onze diensten.</p>
+
+        <h2>Persoonlijke gegevens die wij verzamelen</h2>
+        <p>Wanneer u onze website bezoekt, verzamelen we bepaalde informatie over uw apparaat, waaronder informatie over uw webbrowser, IP-adres, tijdzone en enkele van de cookies die op uw apparaat zijn geïnstalleerd. Bovendien verzamelen we informatie over de individuele webpagina's of producten die u bekijkt, welke websites of zoektermen u naar onze website hebben verwezen en informatie over hoe u met onze website omgaat. We verwijzen naar deze automatisch verzamelde informatie als "Apparaatgegevens".</p>
+        <p>We verzamelen Apparaatgegevens met behulp van de volgende technologieën:</p>
+        <ul>
+            <li>"Cookies"</li>
+            <li>"Logbestanden"</li>
+            <li>"Web beacons", "tags" en "pixels"</li>
+        </ul>
+
+        <h2>Hoe gebruiken wij uw persoonlijke gegevens?</h2>
+        <p>Wij gebruiken de Apparaatgegevens die we verzamelen om ons te helpen bij het screenen van mogelijke risico's en fraude (met name uw IP-adres), en meer in het algemeen om onze website te verbeteren en te optimaliseren (bijvoorbeeld door analyses te genereren over hoe onze klanten browsen en interageren met de website, en om het succes van onze marketing- en advertentiecampagnes te evalueren).</p>
+
+        <h2>Delen van uw persoonlijke gegevens</h2>
+        <p>Wij delen uw persoonlijke gegevens met derden om ons te helpen uw persoonlijke gegevens te gebruiken, zoals hierboven beschreven.</p>
+
+        <h2>Uw rechten</h2>
+        <p>Als u een Europese inwoner bent, hebt u het recht om toegang te krijgen tot de persoonlijke informatie die we over u bewaren en om te vragen dat uw persoonlijke gegevens worden gecorrigeerd, bijgewerkt of verwijderd.</p>
+
+        <h2>Gegevensbewaring</h2>
+        <p>Wanneer u een bestelling plaatst via de website, zullen we uw Orderinformatie voor onze administratie bewaren, tenzij en totdat u ons vraagt deze informatie te verwijderen.</p>
+
+        <h2>Wijzigingen</h2>
+        <p>We kunnen dit privacybeleid van tijd tot tijd bijwerken om bijvoorbeeld wijzigingen in onze werkwijzen weer te geven of om andere operationele, wettelijke of regelgevende redenen.</p>
+
+        <h2>Contact met ons opnemen</h2>
+        <p>Voor meer informatie over ons privacybeleid of als u vragen hebt, kunt u contact met ons opnemen op de chatpagina.</p>
+                        </div>`;
+        }
+    }
+    customElements.define('custom-privacy', CustomPrivacy)
+</script>
+<custom-privacy></custom-privacy>

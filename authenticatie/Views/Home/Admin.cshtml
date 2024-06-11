@@ -1,0 +1,15 @@
+﻿<script>
+
+    class CustomAdmin extends HTMLElement {
+        connectedCallback() {
+
+
+                this.innerHTML='<h1>Admin </h1>'
+        }
+    }
+    customElements.define('custom-admin', CustomAdmin)
+</script>
+            @{
+            ViewData["Title"] = "Admin";
+            }
+<custom-admin></custom-admin>

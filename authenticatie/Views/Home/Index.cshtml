@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script>
+    class CustomIndex extends HTMLElement {
+        connectedCallback() {
+            this.innerHTML = `
+                    <div class="text-center">
+                        <h1 class="display-4">Welkom bij chatten met thomas!</h1>
+                        <p>Ga naar Chat om te chatten!</p>
+                    </div>
+                `;
+        }
+    }
+    customElements.define('custom-index', CustomIndex)
+</script>
+<custom-index></custom-index>
